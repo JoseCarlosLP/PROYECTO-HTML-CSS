@@ -1,0 +1,43 @@
+.div-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.info-flex {
+    flex-grow: 1;
+}
+.info-flex h1 {
+    margin: 0 40px;
+    font-size: 3rem;
+    color: #C51605;
+    font-weight: bold;
+}
+.lista-bio{
+    font-size: 20px;
+}
+.info-flex img{
+    margin: 0 20px;
+    width: 250px;
+}
+@media (max-width: 350px){
+    .info-flex h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .info-flex .lista-bio{
+        font-size: 16px;
+    }
+    .info-flex img{
+        margin: 0 20px;
+        width: 100px;
+    }
+    .img-flex {
+        flex-grow: 1;
+        text-align: center;
+    }
+    .img-flex img {
+        max-width: 100%;
+        height: auto;
+    }
+}
